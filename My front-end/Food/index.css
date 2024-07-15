@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+}
+.left{
+    font-size: 35px;
+}
+.nav-button{
+    padding: 10px 20px;
+    font-size: 10px;
+    background-color: orangered;
+    border: none;
+    border-radius: 25px;
+    color: white;
+}
+.link{
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: gray;
+    transition: 0.5 ease-in;
+}
+.link:hover{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.hero{
+    height: 100vh;
+    width: 100vw;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+/* .hero-left{
+    padding: 70px;
+} */
+.header-text{
+    font-size: 60px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    }
+   
+.para-text{
+    padding-bottom: 20px;
+    color: gray;
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 10px;
+    background-color: orangered;
+    border: none;
+    border-radius: 25px;
+    color: white;}
+
+.hero-image{
+     width:80%;
+}
+.about{
+    padding: 40px 0px;
+}
+.about-header{
+    text-align: center;
+    font-size: 20px;
+}
+.about-subheader{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+}
+.about-image{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 35px;
+}
+.about-right{
+   padding-right: 20px;
+}
+.flexed{
+    display:flex;
+    align-items: center;
+    margin-top: 40px;
+    padding-right: 20px;
+    gap: 17px;
+}
+.arrow{
+    width: 40px;
+}
+.card-section{
+    display: flex;
+    padding: 20px 10px;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    
+
+}
+.flexed-cardred{
+    background-color: red;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    color: white;
+   
+}
+.flexed-card{
+    padding:20px 5px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    width: 250px;
+    height: 200px;
+    font-size: 14px;
+   
+}
+.header-card1{
+    padding:20px 5px;
+}
+.learn{
+    padding-top:30px; 
+}
